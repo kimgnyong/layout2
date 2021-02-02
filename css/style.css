@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+#wrap {width:1200px; height:700px; margin: 0 auto; font-weight: 600; color: cornsilk;}
+
+#wrap #header {width:100%; height:100px; line-height:100px; text-align: center;}
+#wrap #header .menu {width:100%; height:100px; display: inline-block;}
+#wrap #header .menu div{width:100%; height:100px; float: left;}
+
+#wrap #header .menu div .left-box{width:200px; height:100px; background-color: blue;}
+
+#wrap #header .menu div .right-box{width: 1000px; height:100px; background-color: blueviolet;}
+#wrap #header .menu div .right-box #nav {height: 50px; padding-top:50px; text-align: right; line-height: 100%; }
+#wrap #header .menu div .right-box #nav .main-btn { height:100%; display: inline-block; background-color: darkblue; margin-right:20px;}
+#wrap #header .menu div .right-box #nav .main-btn .btn { float: left; width:180px; height: 100%;}
+#wrap #header .menu div .right-box #nav .main-btn .btn a { width:100%; height:100%; display: block; line-height: 50px; background-color: #333; color: cornsilk; transition: all .3s; text-align: center;}
+#wrap #header .menu div .right-box #nav .main-btn .btn a:hover{background-color: #eee; color:#000;}
+
+#wrap #main {width:100%; height:500px; text-align: center;}
+#wrap #main #section1 {width:100%; height:300px; line-height: 300px; background-color: cyan; }
+#wrap #main #section2 {width:100%; height:200px; line-height: 200px;}
+#wrap #main #section2 .menu{width:100%; height:200px; display: inline-block;}
+#wrap #main #section2 .menu div {width:100%; height:200px; float:left;}
+#wrap #main #section2 .menu .left-box {width:400px; height:200px; background-color: darkblue;}
+#wrap #main #section2 .menu .center-box {width:400px; height:200px; background-color: darkgreen;}
+#wrap #main #section2 .menu .right-box {width:400px; height:200px; background-color: darkred;}
+
+#wrap #footer {width:100%; height:100px; text-align: center;}
+#wrap #footer .menu {width:100%; height:100px;  background-color: gray; display: inline-block;}
+#wrap #footer .menu div {width:100%; height:100px; background-color: gray; float: left;}
+#wrap #footer .menu div .left-box {width:960px; height:100px;}
+#wrap #footer .menu div .left-box #div1 {float :left; width:100%; height:50px; background-color:blue; line-height: 3;}
+#wrap #footer .menu div .left-box #div2 {float :left; width:100%; height:50px; background-color:red; line-height: 3;}
+#wrap #footer .menu div .right-box {width:240px; height:100px; background-color:chartreuse;}
